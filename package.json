@@ -4,5 +4,15 @@
   "main": "index.js",
   "repository": "https://github.com/MarKust71-arch/react-express-test.git",
   "author": "<markust71@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "mon": "nodemon --watch index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
